@@ -1,0 +1,42 @@
+# Environment dan rahasia
+.env
+.env.*
+!.env.example
+.envrc
+
+# Database dan dump
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+
+# Kredensial dan kunci lokal
+.aws/
+.secrets/
+**/secrets/
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Dependencies, hasil build, dan unggahan
+**/node_modules/
+**/dist/
+**/dist-ssr/
+backend/uploads/
+
+# Arsip
+*.zip
+
+# File dan konfigurasi AI agent
+.agents/
+**/.agents/
+AGENTS.md
+**/AGENTS.md
+.codex/
+**/.codex/
+.github/copilot-instructions.md
+.vscode/

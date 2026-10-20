@@ -1,0 +1,23 @@
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.page-title {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: #64748b;
+  margin-top: 4px;
+}
